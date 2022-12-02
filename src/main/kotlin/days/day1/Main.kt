@@ -1,8 +1,10 @@
+package days.day1
+
 import java.io.File
 
 
 fun main(args: Array<String>) {
-    val data = File("src/main/kotlin/days/day1/input").readText()
+    val data = File("src/days.day1.main/kotlin/days/day1/input").readText()
     println(getNMax(3, getListOfSum(data)))
 }
 
